@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+  height: 190px;
+  width: calc(50% - 20px);
+  margin: 10px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+/* bgi -> bgr -> bgp -> bgs */
+/* cat */
+/* bird */
+.box:nth-child(1) {
+  background-color: #009688;
+  background-image: url("vecteezy_little-bird-watercolor-hand-paint_13182804.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  background-size: 20px;
+}
+/* dog */
+.box:nth-child(2) {
+  background-color: skyblue;
+  background-image: url("vecteezy_welsh-corgi-dog-smiling-ai-generative_29721967.png");
+  background-repeat: repeat-y;
+  background-position: left;
+  background-size: 20px;
+}
+/* turtle */
+.box:nth-child(3) {
+  background-color: #3f51b5;
+  background-image: url("vecteezy_realistic-cute-cat-cartoon-style-digital-artwork_21830103.png");
+  background-size: 30px;
+}
+
+.box:nth-child(4) {
+  background-color: #9c27b0;
+  background-image: url("pngwing.com.png");
+  background-repeat: repeat;
+background-size: 40px;
+}
