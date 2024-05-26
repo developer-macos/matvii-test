@@ -19,16 +19,17 @@
 .box:nth-child(1) {
   background-color: #009688;
   background-image: url("vecteezy_little-bird-watercolor-hand-paint_13182804.png");
-  background-repeat: repeat-x;
-  background-position: bottom;
-  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50px;
 }
 /* dog */
 .box:nth-child(2) {
   background-color: skyblue;
   background-image: url("vecteezy_welsh-corgi-dog-smiling-ai-generative_29721967.png");
-  background-repeat: repeat-y;
-  background-position: left;
+  background-repeat: repeat-x;
+  background-position: bottom;
+
   background-size: 20px;
 }
 /* turtle */
@@ -36,11 +37,14 @@
   background-color: #3f51b5;
   background-image: url("vecteezy_realistic-cute-cat-cartoon-style-digital-artwork_21830103.png");
   background-size: 30px;
+    background-repeat: repeat-y;
+  background-position: left;
+
 }
 
 .box:nth-child(4) {
   background-color: #9c27b0;
   background-image: url("pngwing.com.png");
-  background-repeat: repeat;
+
 background-size: 40px;
 }
